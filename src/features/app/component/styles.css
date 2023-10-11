@@ -1,0 +1,76 @@
+/*position absolute de ko chiem dien tich va day button xuong*/
+.bg-cover {
+  background-color: rgb(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+}
+
+.modal {
+  width: 25%;
+  height: 230px;
+  background-color: white;
+  position: relative;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.modal__header {
+  background-color: #e26e70;
+  height: 50px;
+  color: white;
+  display: flex;
+  font-size: x-large;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.modal__title {
+  margin-left: 10px;
+  color: #e26e70;
+}
+
+.modal__body {
+  margin-left: 10px;
+}
+
+.modal__footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.btn-close {
+  width: 90px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #e26e70;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: medium;
+  margin-right: 10px;
+}
+
+.modal-visible {
+  opacity: 1;
+}
+
+.modal-animation {
+  animation: drop 0.2s linear;
+}
+
+@keyframes drop {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: 25%;
+  }
+}

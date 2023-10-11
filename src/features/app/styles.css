@@ -1,0 +1,21 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(45deg, #5F57CD, #CB57BB, #F0AA86);
+    padding: 0;
+    margin: 0;
+}
+
+.btn-open-modal {
+    background-color: white;
+    width: 129px;
+    height: 60px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: large;
+}
